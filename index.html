@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB-LAND - Создание сайтов</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: #222;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00ffcc;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .categories, .steps, .reviews, .contacts {
+            margin: 20px 0;
+        }
+
+        h1, h2 {
+            text-shadow: 0 0 10px #00ffcc;
+            animation: float 2s infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .categories div, .reviews div {
+            margin: 15px 0;
+            padding: 15px;
+            border: 1px solid #444;
+            border-radius: 5px;
+            background-color: #111;
+            box-shadow: 0 0 15px rgba(0, 255, 204, 0.2);
+        }
+
+        footer {
+            background-color: #222;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать в WEB-LAND</h1>
+        <p>Создаем сайты на заказ с качественным подходом</p>
+    </header>
+
+    <nav>
+        <a href="#menu">Меню</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
+    </nav>
+
+    <section id="menu">
+        <h2>Наши категории</h2>
+        <div class="categories">
+            <div>
+                <h3>Ферзь</h3>
+                <p>Стоимость: 1500 рублей</p>
+            </div>
+            <div>
+                <h3>Возвышенный</h3>
+                <p>Стоимость: 5000 рублей</p>
+                <p>Подарок: Логотип</p>
+            </div>
+            <div>
+                <h3>Премиум</h3>
+                <p>Стоимость: 10000 рублей</p>
+                <p>Подарки: Логотип, реклама в наших социальных сетях</p>
+            </div>
+        </div>
+
+        <h2>Этапные шаги</h2>
+        <div class="steps">
+            <p>Шаг 1: Анализ и консультация</p>
+            <p>Шаг 2: Дизайн</p>
+            <p>Шаг 3: Разработка</p>
+            <p>Шаг 4: Тестирование и запуск</p>
+        </div>
+    </section>
+
+    <section id="reviews">
+        <h2>Отзывы</h2>
+        <div class="reviews">
+            <div>
+                <p><strong>Анатолий Валерьевич:</strong> Ребята молодцы, работают быстро, а самое главное качественно.</p>
+            </div>
+            <div>
+                <p><strong>Дмитрий Микайлов:</strong> Очень доволен результатом! Логотип получил качественный и создали его за 1 день, включая доработки - 2 дня.</p>
+            </div>
+            <div>
+                <p><strong>Владислав Вадимович:</strong> Работа идеальная, оставил даже чаевые. Ребята на высоком уровне!</p>
+            </div>
+            <div>
+                <p><strong>Елена Вячеславовна:</strong> Очень профессиональный подход, всем советую!</p>
+            </div>
+            <div>
+                <p><strong>Игорь Сергеевич:</strong> Сайт сделали качественно, доволен!</p>
+            </div>
+            <div>
+                <p><strong>Светлана Александровна:</strong> Отличная команда, приятно работать!</p>
+            </div>
+            <div>
+                <p><strong>Павел Иванов:</strong> Быстро, удобно, профессионально. Рекомендую!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts">
+        <h2>Контакты</h2>
+        <div class="contacts">
+            <p>Telegram каналы:</p>
+            <ul>
+                <li><a href="https://t.me/itworld2022" target="_blank">Modern World</a></li>
+                <li><a href="https://t.me/it2009" target="_blank">SADLAHAY CODE/ONECOIN</a></li>
+                <li><a href="https://t.me/russian_capital_official" target="_blank">Russian Capital</a></li>
+                <li><a href="https://t.me/Safiyev_Marat" target="_blank">Блог Сафиева Марата</a></li>
+                <li><a href="https://t.me/darliving" target="_blank">Darliving Studio</a></li>
+            </ul>
+            <p>Instagram: <a href="https://www.instagram.com/maratsafiyev19/" target="_blank">@maratsafiyev19</a></p>
+            <p>YouTube каналы:</p>
+            <ul>
+                <li><a href="https://www.youtube.com/@onecodetv2270" target="_blank">SADLAHAY CODE/ONECODE</a></li>
+                <li><a href="https://www.youtube.com/@russiancapital-official" target="_blank">Российский Капитал</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 WEB-LAND. Все права защищены.</p>
+    </footer>
+</body>
+</html>
